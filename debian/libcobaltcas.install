@@ -1,0 +1,1 @@
+debian/000_cobaltcas.conf /etc/ld.so.conf.d/

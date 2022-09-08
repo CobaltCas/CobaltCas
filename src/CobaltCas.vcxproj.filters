@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="card.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="key_manager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="winscard.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="card.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="default_card_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="key_manager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ldst.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="project.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9b293e3c-b8a8-4fda-9755-c3305d3d4bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{23feb7d8-eaba-48ec-bfb7-fa4d72ebca47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="version.rc" />
+  </ItemGroup>
+</Project>

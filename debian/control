@@ -1,0 +1,11 @@
+Source: libcobaltcas
+Priority: optional
+Maintainer: CobaltCas <cobaltcas@example.com>
+Build-Depends: debhelper (>= 10), libpcsclite-dev, meson, pkg-config
+Standards-Version: 4.1.3
+Section: libs
+
+Package: libcobaltcas
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: PC/SC smart card interface

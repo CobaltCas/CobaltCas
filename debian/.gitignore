@@ -1,0 +1,7 @@
+.debhelper/
+libcobaltcas/
+*.log
+000_cobaltcas.conf
+debhelper-build-stamp
+files
+libcobaltcas.substvars
